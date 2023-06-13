@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="342.0" prefWidth="626.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.linguakid01.HelloController">
+   <children>
+      <ImageView fitHeight="349.0" fitWidth="626.0" layoutX="3.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/image01.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="248.0" fitWidth="428.0" layoutX="99.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/imag02.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="IngreButton" layoutX="277.0" layoutY="268.0" mnemonicParsing="false" style="-fx-background-color: #ff5400;" text="Ingresar">
+         <font>
+            <Font name="Comic Sans MS Bold" size="13.0" />
+         </font>
+      </Button>
+      <TextField fx:id="contratextfield" layoutX="239.0" layoutY="234.0" style="-fx-background-color: #0496ff;" />
+      <TextField fx:id="correotextfield" layoutX="239.0" layoutY="190.0" style="-fx-background-color: #0496ff;" />
+      <Label layoutX="255.0" layoutY="171.0" text="Correo electronico">
+         <font>
+            <Font name="Comic Sans MS Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="279.0" layoutY="215.0" text="Contraseña">
+         <font>
+            <Font name="Comic Sans MS Bold" size="13.0" />
+         </font>
+      </Label>
+      <Hyperlink fx:id="RegisHyperlink" layoutX="280.0" layoutY="295.0" text="Registrarse" underline="true">
+         <font>
+            <Font name="Comic Sans MS Bold" size="10.0" />
+         </font>
+      </Hyperlink>
+   </children>
+</AnchorPane>

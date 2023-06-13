@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="324.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.linguakid01.HelloController">
+   <children>
+      <ImageView fitHeight="378.0" fitWidth="600.0" layoutX="1.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/image01.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="231.0" fitWidth="511.0" layoutX="96.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/imag02.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="RegisButton" layoutX="256.0" layoutY="289.0" mnemonicParsing="false" style="-fx-background-color: #ff5400;" text="Registrarse" underline="true">
+         <font>
+            <Font name="Comic Sans MS Bold" size="13.0" />
+         </font>
+      </Button>
+      <TextField fx:id="contratextfield" layoutX="226.0" layoutY="256.0" style="-fx-background-color: #0496ff;" />
+      <TextField fx:id="correotextfield" layoutX="226.0" layoutY="212.0" style="-fx-background-color: #0496ff;" />
+      <TextField fx:id="nombretextfield" layoutX="226.0" layoutY="170.0" style="-fx-background-color: #0496ff;" />
+      <Button fx:id="RegreButton" layoutX="14.0" layoutY="8.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="67.0" style="-fx-background-color: #FFD51E;" text="Regresar">
+         <font>
+            <Font name="Comic Sans MS Bold" size="11.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="273.0" layoutY="151.0" prefHeight="19.0" prefWidth="56.0" text="Nombre" textAlignment="CENTER">
+         <font>
+            <Font name="Comic Sans MS Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="238.0" layoutY="195.0" prefHeight="19.0" prefWidth="126.0" text="Correo electronico" textAlignment="CENTER">
+         <font>
+            <Font name="Comic Sans MS Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="238.0" layoutY="237.0" prefHeight="19.0" prefWidth="126.0" text="Contraseña" textAlignment="CENTER">
+         <font>
+            <Font name="Comic Sans MS Bold" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
